@@ -1,0 +1,10 @@
+create database php_crud_notes;
+
+use php_crud_notes;
+
+CREATE TABLE `note` (
+  `id` int(11) NOT NULL auto_increment,
+  `title` varchar(100),
+  `texts` varchar(1000),
+  PRIMARY KEY  (`id`)
+);
