@@ -1,6 +1,10 @@
 # Aplikasi Note Sederhana menggunakan PHP dan Database MySQL
 Aplikasi ini merupakan aplikasi paling basic, didalamnya berisi ligic sederhana untuk terkoneksi dengan database Localhost.
-Aplikasi ini menyimpan data ke dalam database localhost device kalian.
+Aplikasi ini menggunakan httprequest untuk menyimpan data ke dalam database localhost device kalian.
+
+### Features
+  - simple crud features (create, read, update, delete)
+
 
 ## Run project
 ### Requirements:
