@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Tambah Note</title>
-    <style>
+    
     <style>
         body {
             font-family: sans-serif;
@@ -13,8 +13,9 @@
             max-width: 1600px;
             margin: 0 auto;
             background: linear-gradient(to bottom,#ffffff, #bfd8ff);
-            border-left: 3px solid #ddd;
-            text-align: left;
+            border-left: 6px solid #ddd;
+			text-align: left;
+            border-radius: 25px;
         }
 
         th, td {
@@ -45,7 +46,7 @@
 			</tr>
 			<tr> 
 				<td>Note</td>
-				<td><input type="text" name="texts"></td>
+				<td><input type="text" style="width: 100%; height: 500px;" name="texts"></td>
 			</tr>
 			<tr> 
 				<td></td>
