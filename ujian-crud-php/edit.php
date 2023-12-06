@@ -49,6 +49,7 @@ while($user_data = mysqli_fetch_array($result))
             background: linear-gradient(to bottom,#ffffff, #bfd8ff);
             border-left: 3px solid #ddd;
             text-align: left;
+			border-radius: 25px;
         }
 
         th, td {
