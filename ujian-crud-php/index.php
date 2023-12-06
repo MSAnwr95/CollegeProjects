@@ -20,7 +20,9 @@ $result = mysqli_query($mysqli, "SELECT * FROM note ORDER BY id DESC");
             max-width: 1600px;
             margin: 0 auto;
             background: linear-gradient(to bottom,#ffffff, #bfd8ff);
-            border-left: 3px solid #ddd;
+            border-left: 6px solid #ddd;
+            text-align: left;
+            border-radius: 25px;
         }
 
         th, td {
@@ -42,7 +44,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM note ORDER BY id DESC");
 </head>
 
 <body>
-    <h1>Localhost Personal Notes <i>v0.0.1</i> </h1> 
+    <h1>Localhost Personal Notes <i>v0.0.2</i> </h1> 
     <br>
     <br>
     <br>
